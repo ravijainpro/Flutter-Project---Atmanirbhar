@@ -29,7 +29,20 @@ void main() => runApp(MyApp());
 // or may be terminated. You can get an unrestricted "no-strings-attached" 30 day trial license key for free.
 // Please submit the trial license form (https://scanbot.io/sdk/trial.html) on our website by using
 // the app identifier "io.scanbot.example.sdk.flutter" of this example app or of your app.
-const SCANBOT_SDK_LICENSE_KEY = "";
+const SCANBOT_SDK_LICENSE_KEY = "cPJaWtvXEJH/saeDetb6zHk8Uo72+h" +
+"Wxv1lHI1VxlnZK6vgtWD3M7n73jIjn" +
+"hVbTlGpksJ+uhY/xgkZ61cgQONQ/VJ" +
+"9TCz4SXiX8/Jnh+MYNemX6vkL2eUoL" +
+"0U0heANCj9j0nPsIqyrIVk4Z4o7NkY" +
+"s+Bx4TUcmEckuHp/ZQBXn/fwubmg2S" +
+"0ZXSFVzzd/E5FwVx+tsY2zDSNyd6YM" +
+"AVLcSbSqMtCMs3yBlmDrttAs4pSPAi" +
+"dZe1VA+iGovIA0Vy5JWtKl8ezNNYDP" +
+"0BDOsuzFbfuNcKZQ8pXPPnBIQHGq6g" +
+"Gakgp7yxX/wMqsAAiPJdwItx3hsWwQ" +
+"l6QIZNQ5RDIA==\nU2NhbmJvdFNESw" +
+"pjb20uZG9jc2Nhbi5mbHV0dGVyCjE1" +
+"OTY4NDQ3OTkKMjYyMTQzCjM=\n";
 
 initScanbotSdk() async {
   // Consider adjusting this optional storageBaseDirectory - see the comments below.
@@ -117,7 +130,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: const Text('Scanbot SDK Example Flutter',
+        title: const Text('DocScan',
             style: TextStyle(inherit: true, color: Colors.black)),
       ),
       body: ListView(
