@@ -33,13 +33,19 @@
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.2",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "fake_async",
       "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/fake_async-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
@@ -56,16 +62,28 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-8.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "image_picker",
       "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.2+1",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
-      "name": "json_annotation",
-      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.0.0",
+      "name": "intl",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.5"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
     },
     {
       "name": "matcher",
@@ -87,15 +105,45 @@
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/path_provider-1.4.0",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.11",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "path_provider_macos",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "platform",
       "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
       "packageUri": "lib/",
       "languageVersion": "1.24"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/process-3.0.13",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "scanbot_sdk",
@@ -108,6 +156,12 @@
       "rootUri": "file:///home/ravijain/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "1.11"
+    },
+    {
+      "name": "smooth_star_rating",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/smooth_star_rating-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
     },
     {
       "name": "source_span",
@@ -158,13 +212,19 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "xdg_directories",
+      "rootUri": "file:///home/ravijain/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "scanbot_sdk_example_flutter",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     }
   ],
-  "generated": "2020-07-08T09:36:01.990012Z",
+  "generated": "2020-07-09T05:44:09.003552Z",
   "generator": "pub",
   "generatorVersion": "2.9.0-14.1.beta"
 }
