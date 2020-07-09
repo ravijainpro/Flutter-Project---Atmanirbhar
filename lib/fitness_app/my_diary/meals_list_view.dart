@@ -18,6 +18,7 @@ import 'package:scanbot_sdk/mrz_scanning_data.dart';
 import 'package:scanbot_sdk/scanbot_sdk.dart';
 import 'package:scanbot_sdk/scanbot_sdk_models.dart';
 import 'package:scanbot_sdk/scanbot_sdk_ui.dart';
+import 'package:downloads_path_provider/downloads_path_provider.dart';
 
 import '../../fitness_app_home_screen.dart';
 import '../../pages_repository.dart';
@@ -49,8 +50,8 @@ initScanbotSdk() async {
     loggingEnabled: true, // Consider switching logging OFF in production builds for security and performance reasons.
     licenseKey: SCANBOT_SDK_LICENSE_KEY,
     imageFormat: ImageFormat.JPG,
-    imageQuality: 80,
-    storageBaseDirectory: customStorageBaseDirectory,
+    imageQuality: 100,
+    storageBaseDirectory: customStorageBaseDirectory.path+"/DocScan",
   );
 
   try {
@@ -61,7 +62,7 @@ initScanbotSdk() async {
 }
 
 
-Future<String> getDemoStorageBaseDirectory() async {
+Future<Directory> getDemoStorageBaseDirectory() async {
   // !! Please note !!
   // It is strongly recommended to use the default (secure) storage location of the Scanbot SDK.
   // However, for demo purposes we overwrite the "storageBaseDirectory" of the Scanbot SDK by a custom storage directory.
@@ -83,7 +84,8 @@ Future<String> getDemoStorageBaseDirectory() async {
 
   Directory storageDirectory;
   if (Platform.isAndroid) {
-    storageDirectory = await getExternalStorageDirectory();
+    Future<Directory> storageDirectory1 = DownloadsPathProvider.downloadsDirectory;
+    return storageDirectory1;
   }
   else if (Platform.isIOS) {
     storageDirectory = await getApplicationDocumentsDirectory();
@@ -92,7 +94,7 @@ Future<String> getDemoStorageBaseDirectory() async {
     throw("Unsupported platform");
   }
 
-  return "${storageDirectory.path}/my-custom-storage";
+  //return "${storageDirectory.path}/DocScan";
 }
 
 

@@ -253,7 +253,7 @@ class PagesPreviewWidgetState extends State<PagesPreviewWidget> {
       var config = DocumentScannerConfiguration(
         orientationLockMode: c.CameraOrientationMode.PORTRAIT,
         cameraPreviewMode: c.CameraPreviewMode.FIT_IN,
-        ignoreBadAspectRatio: true,
+        ignoreBadAspectRatio: false,
         multiPageEnabled: false,
         multiPageButtonHidden: true,
       );
@@ -332,7 +332,7 @@ class PagesPreviewWidgetState extends State<PagesPreviewWidget> {
     dialog.style(message: "Creating PDF ...");
     try {
       dialog.show();
-      var options = PdfRenderingOptions(PdfRenderSize.A4);
+      var options = PdfRenderingOptions(PdfRenderSize.FIXED_A4);
       final Uri pdfFileUri = await ScanbotSdk.createPdf(this._pageRepository.pages, options);
       dialog.hide();
       showAlertDialog(context, pdfFileUri.toString(), title: "PDF file URI");

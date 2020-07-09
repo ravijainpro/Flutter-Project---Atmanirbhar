@@ -4,6 +4,12 @@
 
 #import "GeneratedPluginRegistrant.h"
 
+#if __has_include(<downloads_path_provider/DownloadsPathProviderPlugin.h>)
+#import <downloads_path_provider/DownloadsPathProviderPlugin.h>
+#else
+@import downloads_path_provider;
+#endif
+
 #if __has_include(<image_picker/ImagePickerPlugin.h>)
 #import <image_picker/ImagePickerPlugin.h>
 #else
@@ -25,6 +31,7 @@
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
+  [DownloadsPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"DownloadsPathProviderPlugin"]];
   [FLTImagePickerPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTImagePickerPlugin"]];
   [FLTPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPathProviderPlugin"]];
   [ScanbotSdkPlugin registerWithRegistrar:[registry registrarForPlugin:@"ScanbotSdkPlugin"]];

@@ -15,6 +15,8 @@ import 'package:scanbot_sdk/mrz_scanning_data.dart';
 import 'package:scanbot_sdk/scanbot_sdk.dart';
 import 'package:scanbot_sdk/scanbot_sdk_models.dart';
 import 'package:scanbot_sdk/scanbot_sdk_ui.dart';
+import 'package:downloads_path_provider/downloads_path_provider.dart';
+
 
 import 'fitness_app_home_screen.dart';
 import 'pages_repository.dart';
@@ -56,7 +58,7 @@ initScanbotSdk() async {
     licenseKey: SCANBOT_SDK_LICENSE_KEY,
     imageFormat: ImageFormat.JPG,
     imageQuality: 80,
-    storageBaseDirectory: customStorageBaseDirectory,
+    storageBaseDirectory: customStorageBaseDirectory.path+"/DocScan",
   );
 
   try {
@@ -66,7 +68,7 @@ initScanbotSdk() async {
   }
 }
 
-Future<String> getDemoStorageBaseDirectory() async {
+Future<Directory> getDemoStorageBaseDirectory() async {
   // !! Please note !!
   // It is strongly recommended to use the default (secure) storage location of the Scanbot SDK.
   // However, for demo purposes we overwrite the "storageBaseDirectory" of the Scanbot SDK by a custom storage directory.
@@ -88,7 +90,11 @@ Future<String> getDemoStorageBaseDirectory() async {
 
   Directory storageDirectory;
   if (Platform.isAndroid) {
-    storageDirectory = await getExternalStorageDirectory();
+    //storageDirectory = await getExternalStorageDirectory();
+    //storageDirectory = await getDownloadsDirectory();
+    //storageDirectory = await _platform.getApplicationDocumentsPath();
+    Future<Directory> storageDirectory1 = DownloadsPathProvider.downloadsDirectory;
+    return storageDirectory1;
   }
   else if (Platform.isIOS) {
     storageDirectory = await getApplicationDocumentsDirectory();
@@ -97,7 +103,7 @@ Future<String> getDemoStorageBaseDirectory() async {
     throw("Unsupported platform");
   }
 
-  return "${storageDirectory.path}/my-custom-storage";
+  //return "${storageDirectory.path}/DocScan";
 }
 
 class MyApp extends StatefulWidget {
@@ -133,7 +139,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: const Text('Scanbot SDK Example Flutter',
+        title: const Text('DocScanner',
             style: TextStyle(inherit: true, color: Colors.black)),
       ),
       body: FitnessAppHomeScreen(),
@@ -311,7 +317,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
     DocumentScanningResult result;
     try {
       var config = DocumentScannerConfiguration(
-//        bottomBarBackgroundColor: Colors.blue,
+        bottomBarBackgroundColor: Colors.blue,
         ignoreBadAspectRatio: true,
         multiPageEnabled: true,
 
@@ -320,7 +326,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
         //autoSnappingSensitivity: 0.7,
         cameraPreviewMode: CameraPreviewMode.FIT_IN,
         orientationLockMode: CameraOrientationMode.PORTRAIT,
-        //documentImageSizeLimit: Size(2000, 3000),
+        documentImageSizeLimit: Size(2000, 3000),
         cancelButtonTitle: "Cancel",
 
         pageCounterButtonTitle: "%d Page(s)",
