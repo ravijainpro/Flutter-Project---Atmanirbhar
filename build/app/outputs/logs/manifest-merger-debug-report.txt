@@ -1,0 +1,364 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-22:12
+MERGED from [:path_provider] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:scanbot_sdk] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/scanbot_sdk/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/6830094daed06df7ad1d1dbea7d3d298/AndroidManifest.xml:17:1-22:12
+MERGED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:2:1-30:12
+MERGED from [io.scanbot:sdk-package-4:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-4-1.56.0.1-HOTFIX.aar/a7bed43dc7407e1534c42529be7420ae/AndroidManifest.xml:2:1-11:12
+MERGED from [io.scanbot:sdk-package-3:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-3-1.56.0.1-HOTFIX.aar/7ac0d3b8d83024e0c7c868ec81cd2b46/AndroidManifest.xml:2:1-13:12
+MERGED from [io.scanbot:sdk-package-2:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-2-1.56.0.1-HOTFIX.aar/702c80affa460cb80d4ae7214ae1f732/AndroidManifest.xml:2:1-13:12
+MERGED from [io.scanbot:sdk-package-1:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-1-1.56.0.1-HOTFIX.aar/58671936712fabc29ff9721f0fa5a064/AndroidManifest.xml:2:1-13:12
+MERGED from [io.scanbot:sdk-base:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-base-1.56.0.1-HOTFIX.aar/3eedc054c1da912e7aa369ff80bce223/AndroidManifest.xml:2:1-11:12
+MERGED from [io.scanbot:sdk-core:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-core-1.56.0.1-HOTFIX.aar/ec95e77955e885adbd22d52631bfe29d/AndroidManifest.xml:2:1-13:12
+MERGED from [com.commonsware.cwac.camera:camera:0.6.33] /home/ravijain/.gradle/caches/transforms-1/files-1.1/camera-0.6.33.aar/55cdd9ada2800253e7fde43d58aa6f18/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-vision:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-vision-16.2.0.aar/7af82525cbfb4f99dfa34b4a0e619a7c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-16.2.0.aar/9848a6a719d6de0098bb98e173e710bf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/d90fa5ee4543f8cb753115c08f694572/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/ca5cb8ccfe5086d384c03a4f57ea92fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/2f08a124c5f3f0d69eb5c8aa1dcc9da4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/69978bfcdba33d60a4cd75480b780d69/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/3ec2a3479e1fb762378170791e817e34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /home/ravijain/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/99306100da607f0150eb796f560f3622/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/ravijain/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha2.aar/22c1fb488b614b995726ccd12c50c30c/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/6ef7330f34db2c5022b837f541b9acc3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/f070dc18086d8387ec13f0741bf34863/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/4d4ad72b769b67ea851bdb5f3d36815c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/b896d0742f98348d60f68e9822bd910e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/fc522e4eefe3c31043176aa72c158324/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/0d2d386c7dd5d0486387db3110c113a3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/88d77a94ed1cf55951519c040ccce3f0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.0.aar/3c3c9bc9995e4155dc493ea48d688ae1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/408a8217f684a2c674a2e5b1acd92b23/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/cc7a7ac0aa26af8285d980e83f6fbbf0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f2a742f793a572b2c723857110cbe98c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/1bfa3be912b7616bfcc2cc6cda15a06f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/09d3ad8e9d288c7e65f56fe247d67f02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/a4f94cd0320620eedad49140f24e010b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/eaf99f76abb7a936b32ef715e49bcc4f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/2bb4cbecfb91a836db4250e62eefe7af/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/a4f88bab72ef8abd0af32fc4ad21e242/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/d140020e723410e6af8d6d777d8faec4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/526c9dbd4dad9be7345d9368a5d62ca5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/d1e95366cfc2fc1f99d58b91e3d9c601/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a55ab6b8c0a094719425adb89b03420e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/b75ad308809cf2f8297da3e276d33041/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/c991d40d418311e11b7c95f7007c7281/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/6fd37adcc76e76aa58449d8d59ba7c8e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/da1edb15e4919ea72c90a6d822903282/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e8dd1051db6f2902216faf6661580e0f/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/df7600fa183e0bddcfd71476a1d6a3dc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/42b5aa6f3c79bca633189c2079c9c7a5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/a2afa8d32edd1a7cc3228958f19e13ca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/33c04c63f32c7c5fa508b46071916835/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5f4ef2ab1f16fb1b4b51bf58f8636dc6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/39e4b7e2fd005fd414927b5217be2da4/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/a713bd18710538d186983bea28ffda63/AndroidManifest.xml:15:1-21:12
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:2:5-54
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:4:22-62
+application
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:11:5-35:19
+MERGED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
+MERGED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:9:5-28:19
+MERGED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:9:5-28:19
+MERGED from [io.scanbot:sdk-package-3:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-3-1.56.0.1-HOTFIX.aar/7ac0d3b8d83024e0c7c868ec81cd2b46/AndroidManifest.xml:11:5-20
+MERGED from [io.scanbot:sdk-package-3:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-3-1.56.0.1-HOTFIX.aar/7ac0d3b8d83024e0c7c868ec81cd2b46/AndroidManifest.xml:11:5-20
+MERGED from [io.scanbot:sdk-package-2:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-2-1.56.0.1-HOTFIX.aar/702c80affa460cb80d4ae7214ae1f732/AndroidManifest.xml:11:5-20
+MERGED from [io.scanbot:sdk-package-2:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-2-1.56.0.1-HOTFIX.aar/702c80affa460cb80d4ae7214ae1f732/AndroidManifest.xml:11:5-20
+MERGED from [io.scanbot:sdk-package-1:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-1-1.56.0.1-HOTFIX.aar/58671936712fabc29ff9721f0fa5a064/AndroidManifest.xml:11:5-20
+MERGED from [io.scanbot:sdk-package-1:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-1-1.56.0.1-HOTFIX.aar/58671936712fabc29ff9721f0fa5a064/AndroidManifest.xml:11:5-20
+MERGED from [io.scanbot:sdk-base:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-base-1.56.0.1-HOTFIX.aar/3eedc054c1da912e7aa369ff80bce223/AndroidManifest.xml:9:5-20
+MERGED from [io.scanbot:sdk-base:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-base-1.56.0.1-HOTFIX.aar/3eedc054c1da912e7aa369ff80bce223/AndroidManifest.xml:9:5-20
+MERGED from [io.scanbot:sdk-core:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-core-1.56.0.1-HOTFIX.aar/ec95e77955e885adbd22d52631bfe29d/AndroidManifest.xml:11:5-20
+MERGED from [io.scanbot:sdk-core:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-core-1.56.0.1-HOTFIX.aar/ec95e77955e885adbd22d52631bfe29d/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-vision:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-vision-16.2.0.aar/7af82525cbfb4f99dfa34b4a0e619a7c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-vision-16.2.0.aar/7af82525cbfb4f99dfa34b4a0e619a7c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-16.2.0.aar/9848a6a719d6de0098bb98e173e710bf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-16.2.0.aar/9848a6a719d6de0098bb98e173e710bf/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/d90fa5ee4543f8cb753115c08f694572/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/d90fa5ee4543f8cb753115c08f694572/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/2f08a124c5f3f0d69eb5c8aa1dcc9da4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/2f08a124c5f3f0d69eb5c8aa1dcc9da4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/69978bfcdba33d60a4cd75480b780d69/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/69978bfcdba33d60a4cd75480b780d69/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /home/ravijain/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/99306100da607f0150eb796f560f3622/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /home/ravijain/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/99306100da607f0150eb796f560f3622/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/ravijain/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha2.aar/22c1fb488b614b995726ccd12c50c30c/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/ravijain/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha2.aar/22c1fb488b614b995726ccd12c50c30c/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/526c9dbd4dad9be7345d9368a5d62ca5/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/526c9dbd4dad9be7345d9368a5d62ca5/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e8dd1051db6f2902216faf6661580e0f/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e8dd1051db6f2902216faf6661580e0f/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/526c9dbd4dad9be7345d9368a5d62ca5/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:14:9-52
+	android:largeHeap
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:12:9-33
+	android:icon
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:15:9-43
+	android:name
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:13:9-57
+activity#com.example.scanbot_sdk_example_flutter.MainActivity
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:16:9-34:20
+	android:launchMode
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:18:13-43
+	android:hardwareAccelerated
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:21:13-47
+	android:windowSoftInputMode
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:22:13-55
+	android:configChanges
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:20:13-144
+	android:theme
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:19:13-47
+	android:name
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:17:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:27:13-29:40
+	android:value
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:29:17-37
+	android:name
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:28:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml
+MERGED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:scanbot_sdk] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/scanbot_sdk/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:scanbot_sdk] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/scanbot_sdk/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/6830094daed06df7ad1d1dbea7d3d298/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/6830094daed06df7ad1d1dbea7d3d298/AndroidManifest.xml:20:5-43
+MERGED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:5:5-7:41
+MERGED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:5:5-7:41
+MERGED from [io.scanbot:sdk-package-4:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-4-1.56.0.1-HOTFIX.aar/a7bed43dc7407e1534c42529be7420ae/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-package-4:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-4-1.56.0.1-HOTFIX.aar/a7bed43dc7407e1534c42529be7420ae/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-package-3:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-3-1.56.0.1-HOTFIX.aar/7ac0d3b8d83024e0c7c868ec81cd2b46/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-package-3:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-3-1.56.0.1-HOTFIX.aar/7ac0d3b8d83024e0c7c868ec81cd2b46/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-package-2:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-2-1.56.0.1-HOTFIX.aar/702c80affa460cb80d4ae7214ae1f732/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-package-2:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-2-1.56.0.1-HOTFIX.aar/702c80affa460cb80d4ae7214ae1f732/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-package-1:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-1-1.56.0.1-HOTFIX.aar/58671936712fabc29ff9721f0fa5a064/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-package-1:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-1-1.56.0.1-HOTFIX.aar/58671936712fabc29ff9721f0fa5a064/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-base:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-base-1.56.0.1-HOTFIX.aar/3eedc054c1da912e7aa369ff80bce223/AndroidManifest.xml:5:5-7:41
+MERGED from [io.scanbot:sdk-base:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-base-1.56.0.1-HOTFIX.aar/3eedc054c1da912e7aa369ff80bce223/AndroidManifest.xml:5:5-7:41
+MERGED from [io.scanbot:sdk-core:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-core-1.56.0.1-HOTFIX.aar/ec95e77955e885adbd22d52631bfe29d/AndroidManifest.xml:7:5-9:41
+MERGED from [io.scanbot:sdk-core:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-core-1.56.0.1-HOTFIX.aar/ec95e77955e885adbd22d52631bfe29d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.commonsware.cwac.camera:camera:0.6.33] /home/ravijain/.gradle/caches/transforms-1/files-1.1/camera-0.6.33.aar/55cdd9ada2800253e7fde43d58aa6f18/AndroidManifest.xml:7:5-9:41
+MERGED from [com.commonsware.cwac.camera:camera:0.6.33] /home/ravijain/.gradle/caches/transforms-1/files-1.1/camera-0.6.33.aar/55cdd9ada2800253e7fde43d58aa6f18/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-vision:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-vision-16.2.0.aar/7af82525cbfb4f99dfa34b4a0e619a7c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-vision-16.2.0.aar/7af82525cbfb4f99dfa34b4a0e619a7c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-16.2.0.aar/9848a6a719d6de0098bb98e173e710bf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-16.2.0.aar/9848a6a719d6de0098bb98e173e710bf/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/d90fa5ee4543f8cb753115c08f694572/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/d90fa5ee4543f8cb753115c08f694572/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/ca5cb8ccfe5086d384c03a4f57ea92fd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/ca5cb8ccfe5086d384c03a4f57ea92fd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/2f08a124c5f3f0d69eb5c8aa1dcc9da4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/2f08a124c5f3f0d69eb5c8aa1dcc9da4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/69978bfcdba33d60a4cd75480b780d69/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/69978bfcdba33d60a4cd75480b780d69/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/3ec2a3479e1fb762378170791e817e34/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/3ec2a3479e1fb762378170791e817e34/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /home/ravijain/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/99306100da607f0150eb796f560f3622/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /home/ravijain/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/99306100da607f0150eb796f560f3622/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/ravijain/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha2.aar/22c1fb488b614b995726ccd12c50c30c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] /home/ravijain/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.0-alpha2.aar/22c1fb488b614b995726ccd12c50c30c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/6ef7330f34db2c5022b837f541b9acc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.1.aar/6ef7330f34db2c5022b837f541b9acc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/f070dc18086d8387ec13f0741bf34863/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/f070dc18086d8387ec13f0741bf34863/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/4d4ad72b769b67ea851bdb5f3d36815c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/4d4ad72b769b67ea851bdb5f3d36815c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/b896d0742f98348d60f68e9822bd910e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/b896d0742f98348d60f68e9822bd910e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/fc522e4eefe3c31043176aa72c158324/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/fc522e4eefe3c31043176aa72c158324/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/0d2d386c7dd5d0486387db3110c113a3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/0d2d386c7dd5d0486387db3110c113a3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/88d77a94ed1cf55951519c040ccce3f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/88d77a94ed1cf55951519c040ccce3f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.0.aar/3c3c9bc9995e4155dc493ea48d688ae1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.0.aar/3c3c9bc9995e4155dc493ea48d688ae1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/408a8217f684a2c674a2e5b1acd92b23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/408a8217f684a2c674a2e5b1acd92b23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/cc7a7ac0aa26af8285d980e83f6fbbf0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/cc7a7ac0aa26af8285d980e83f6fbbf0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f2a742f793a572b2c723857110cbe98c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f2a742f793a572b2c723857110cbe98c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/1bfa3be912b7616bfcc2cc6cda15a06f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/1bfa3be912b7616bfcc2cc6cda15a06f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/09d3ad8e9d288c7e65f56fe247d67f02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/09d3ad8e9d288c7e65f56fe247d67f02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/a4f94cd0320620eedad49140f24e010b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/a4f94cd0320620eedad49140f24e010b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/eaf99f76abb7a936b32ef715e49bcc4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/eaf99f76abb7a936b32ef715e49bcc4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/2bb4cbecfb91a836db4250e62eefe7af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/2bb4cbecfb91a836db4250e62eefe7af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/a4f88bab72ef8abd0af32fc4ad21e242/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/a4f88bab72ef8abd0af32fc4ad21e242/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/d140020e723410e6af8d6d777d8faec4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/d140020e723410e6af8d6d777d8faec4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/526c9dbd4dad9be7345d9368a5d62ca5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/526c9dbd4dad9be7345d9368a5d62ca5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/d1e95366cfc2fc1f99d58b91e3d9c601/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/d1e95366cfc2fc1f99d58b91e3d9c601/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a55ab6b8c0a094719425adb89b03420e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a55ab6b8c0a094719425adb89b03420e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/b75ad308809cf2f8297da3e276d33041/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/b75ad308809cf2f8297da3e276d33041/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/c991d40d418311e11b7c95f7007c7281/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0.aar/c991d40d418311e11b7c95f7007c7281/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/6fd37adcc76e76aa58449d8d59ba7c8e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/6fd37adcc76e76aa58449d8d59ba7c8e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/da1edb15e4919ea72c90a6d822903282/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/da1edb15e4919ea72c90a6d822903282/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e8dd1051db6f2902216faf6661580e0f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e8dd1051db6f2902216faf6661580e0f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/df7600fa183e0bddcfd71476a1d6a3dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/df7600fa183e0bddcfd71476a1d6a3dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/42b5aa6f3c79bca633189c2079c9c7a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/42b5aa6f3c79bca633189c2079c9c7a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/a2afa8d32edd1a7cc3228958f19e13ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/a2afa8d32edd1a7cc3228958f19e13ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/33c04c63f32c7c5fa508b46071916835/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/33c04c63f32c7c5fa508b46071916835/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5f4ef2ab1f16fb1b4b51bf58f8636dc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/5f4ef2ab1f16fb1b4b51bf58f8636dc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/39e4b7e2fd005fd414927b5217be2da4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/ravijain/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/39e4b7e2fd005fd414927b5217be2da4/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/a713bd18710538d186983bea28ffda63/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/a713bd18710538d186983bea28ffda63/AndroidManifest.xml:19:5-43
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /home/ravijain/Documents/GitHub/Flutter-Project---Atmanirbhar/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:17-67
+activity#io.scanbot.sdk.ui.view.edit.CroppingActivity
+ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:10:9-12:56
+	android:theme
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:12:13-53
+	android:name
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:11:13-72
+activity#io.scanbot.sdk.ui.view.camera.DocumentScannerActivity
+ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:13:9-15:56
+	android:theme
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:14:13-81
+activity#io.scanbot.sdk.ui.view.mrz.MRZScannerActivity
+ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:16:9-18:56
+	android:theme
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:18:13-53
+	android:name
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:17:13-73
+activity#io.scanbot.sdk.ui.view.barcode.BarcodeScannerActivity
+ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:19:9-21:56
+	android:theme
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:21:13-53
+	android:name
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:20:13-81
+activity#io.scanbot.sdk.ui.view.hic.HealthInsuranceCardScannerActivity
+ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:22:9-24:56
+	android:theme
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:24:13-53
+	android:name
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:23:13-89
+activity#io.scanbot.sdk.ui.view.workflow.WorkflowScannerActivity
+ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:25:9-27:56
+	android:theme
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:27:13-53
+	android:name
+		ADDED from [io.scanbot:sdk-package-ui:1.56.0.1-HOTFIX] /home/ravijain/.gradle/caches/transforms-1/files-1.1/sdk-package-ui-1.56.0.1-HOTFIX.aar/5c5924476f3c2e2c3e8bfb70a0440754/AndroidManifest.xml:26:13-83
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/e6ec50a4d05206e6e6ccd6439e949e33/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/ravijain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/26e894c156901fcbd546f5082b16789c/AndroidManifest.xml:24:13-58
