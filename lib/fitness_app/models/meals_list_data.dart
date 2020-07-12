@@ -22,9 +22,9 @@ class MealsListData {
   static List<MealsListData> tabIconsList = <MealsListData>[
     MealsListData(
       imagePath: 'assets/fitness_app/breakfast.png',
-      titleTxt:  'Document',
+      titleTxt: 'Document',
       func : "startDocumentScanning()",
-      meals: "Scan Image",
+      meals: "Scan an image",
       startColor: '#FA7D82',
       endColor: '#FFB295',
     ),
@@ -32,7 +32,7 @@ class MealsListData {
       imagePath: 'assets/fitness_app/lunch.png',
       titleTxt: 'Barcode',
 
-      meals:"Scan Barcode",
+      meals:"Scan any Barcode",
       startColor: '#738AE6',
       endColor: '#5C5EDD',
     ),
@@ -40,7 +40,7 @@ class MealsListData {
       imagePath: 'assets/fitness_app/snack.png',
       titleTxt: 'QR Code',
 
-      meals: "Scan QR Code",
+      meals: "Scan a QR Code",
       startColor: '#FE95B6',
       endColor: '#FF5287',
     ),
@@ -48,7 +48,7 @@ class MealsListData {
       imagePath: 'assets/fitness_app/dinner.png',
       titleTxt: 'MRC',
 
-      meals: "Scan MRCode",
+      meals: "Scan a MRCode",
       startColor: '#6F72CA',
       endColor: '#1E1466',
     ),

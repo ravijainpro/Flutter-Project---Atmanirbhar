@@ -1,3 +1,5 @@
+import 'package:scanbot_sdk_example_flutter/fitness_app/traning/training_screen.dart';
+
 import '../fintness_app_theme.dart';
 import '../models/meals_list_data.dart';
 import '../../main.dart';
@@ -18,7 +20,6 @@ import 'package:scanbot_sdk/mrz_scanning_data.dart';
 import 'package:scanbot_sdk/scanbot_sdk.dart';
 import 'package:scanbot_sdk/scanbot_sdk_models.dart';
 import 'package:scanbot_sdk/scanbot_sdk_ui.dart';
-import 'package:downloads_path_provider/downloads_path_provider.dart';
 
 import '../../fitness_app_home_screen.dart';
 import '../../pages_repository.dart';
@@ -27,6 +28,7 @@ import '../../ui/utils.dart';
 
 import 'package:image_picker/image_picker.dart';
 
+PageRepository _pageRepository = PageRepository();
 const SCANBOT_SDK_LICENSE_KEY = "cPJaWtvXEJH/saeDetb6zHk8Uo72+h" +
     "Wxv1lHI1VxlnZK6vgtWD3M7n73jIjn" +
     "hVbTlGpksJ+uhY/xgkZ61cgQONQ/VJ" +
@@ -50,8 +52,8 @@ initScanbotSdk() async {
     loggingEnabled: true, // Consider switching logging OFF in production builds for security and performance reasons.
     licenseKey: SCANBOT_SDK_LICENSE_KEY,
     imageFormat: ImageFormat.JPG,
-    imageQuality: 100,
-    storageBaseDirectory: customStorageBaseDirectory.path+"/DocScan",
+    imageQuality: 80,
+    storageBaseDirectory: customStorageBaseDirectory,
   );
 
   try {
@@ -62,7 +64,7 @@ initScanbotSdk() async {
 }
 
 
-Future<Directory> getDemoStorageBaseDirectory() async {
+Future<String> getDemoStorageBaseDirectory() async {
   // !! Please note !!
   // It is strongly recommended to use the default (secure) storage location of the Scanbot SDK.
   // However, for demo purposes we overwrite the "storageBaseDirectory" of the Scanbot SDK by a custom storage directory.
@@ -84,8 +86,7 @@ Future<Directory> getDemoStorageBaseDirectory() async {
 
   Directory storageDirectory;
   if (Platform.isAndroid) {
-    Future<Directory> storageDirectory1 = DownloadsPathProvider.downloadsDirectory;
-    return storageDirectory1;
+    storageDirectory = await getExternalStorageDirectory();
   }
   else if (Platform.isIOS) {
     storageDirectory = await getApplicationDocumentsDirectory();
@@ -94,7 +95,7 @@ Future<Directory> getDemoStorageBaseDirectory() async {
     throw("Unsupported platform");
   }
 
-  //return "${storageDirectory.path}/DocScan";
+  return "${storageDirectory.path}/my-custom-storage";
 }
 
 
@@ -117,7 +118,7 @@ class MealsListView extends StatefulWidget {
 
 class _MealsListViewState extends State<MealsListView>
     with TickerProviderStateMixin {
-  PageRepository _pageRepository = PageRepository();
+
 
   AnimationController animationController;
   List<MealsListData> mealsListData = MealsListData.tabIconsList;
@@ -255,9 +256,18 @@ class MealsView extends StatelessWidget {
     DocumentScanningResult result;
     try {
       var config = DocumentScannerConfiguration(
-//        bottomBarBackgroundColor: Colors.blue,
+
+        bottomBarBackgroundColor: Colors.black,
+//        topBarBackgroundColor:Colors.white,
         ignoreBadAspectRatio: true,
         multiPageEnabled: true,
+        shutterButtonAutoOuterColor:Colors.white,
+        shutterButtonAutoInnerColor:Colors.black,
+        shutterButtonManualInnerColor:Colors.black,
+        shutterButtonManualOuterColor:Colors.white,
+        polygonColor:Colors.lightGreen,
+        polygonColorOK:Colors.lightGreen,
+        multiPageButtonHidden:true,
 
         //maxNumberOfPages: 3,
         //flashEnabled: true,
@@ -267,7 +277,7 @@ class MealsView extends StatelessWidget {
         //documentImageSizeLimit: Size(2000, 3000),
         cancelButtonTitle: "Cancel",
 
-        pageCounterButtonTitle: "%d Page(s)",
+        pageCounterButtonTitle: "%d",
         textHintOK: "Perfect, don't move...",
         //textHintNothingDetected: "Nothing",
         // ...
@@ -288,7 +298,7 @@ class MealsView extends StatelessWidget {
 
     try {
       var config = BarcodeScannerConfiguration(
-        topBarBackgroundColor: Colors.blue,
+        topBarBackgroundColor: Colors.black,
         finderTextHint: "Please align any supported barcode in the frame to scan it.",
         // ...
       );
@@ -380,7 +390,10 @@ class MealsView extends StatelessWidget {
   gotoImagesView() async {
     imageCache.clear();
     return await Navigator.of(context).push(
-      MaterialPageRoute(builder: (context) => DocumentPreview(pR)),
+      MaterialPageRoute(builder: (context) => TrainingScreen(
+        pR: pR,
+        animationController:animationController ,
+      )),
     );
   }
   @override
@@ -394,6 +407,21 @@ class MealsView extends StatelessWidget {
           child: Transform(
             transform: Matrix4.translationValues(
                 100 * (1.0 - animation.value), 0.0, 0.0),
+                child:  new GestureDetector(
+                onTap: () {
+                if (mealsListData.titleTxt == "Document"){
+                return startDocumentScanning();
+                }
+                else if(mealsListData.titleTxt == "Barcode"){
+                return startBarcodeScanner();
+                }
+                else if (mealsListData.titleTxt == "QR Code"){
+                return startQRScanner();
+                }
+                else {
+                return startMRZScanner();
+                }
+                },
             child: SizedBox(
               width: 130,
               child: Stack(
@@ -425,29 +453,16 @@ class MealsView extends StatelessWidget {
                           topRight: Radius.circular(8.0),
                         ),
                       ),
-                      child: Padding(
-                        padding: const EdgeInsets.only(
-                            top: 54, left: 16, right: 16, bottom: 8),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            new GestureDetector(
-                              onTap: () {
-                                  if (mealsListData.titleTxt == "Document"){
-                                    return startDocumentScanning();
-                                  }
-                                  else if(mealsListData.titleTxt == "Barcode"){
-                                    return startBarcodeScanner();
-                                  }
-                                  else if (mealsListData.titleTxt == "QR Code"){
-                                    return startQRScanner();
-                                  }
-                                  else {
-                                    return startMRZScanner();
-                                  }
-                            },
-                              child:Text(
+
+                           child: Padding(
+                              padding: const EdgeInsets.only(
+                                  top: 54, left: 16, right: 16, bottom: 8),
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: <Widget>[
+
+                                Text(
                                 mealsListData.titleTxt,
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
@@ -458,7 +473,7 @@ class MealsView extends StatelessWidget {
                                   color: FintnessAppTheme.white,
                                 ),
                               ),
-                            ),
+
 
 
 
@@ -485,64 +500,12 @@ class MealsView extends StatelessWidget {
                                 ),
                               ),
                             ),
-//                            mealsListData.kacl != 0
-                                 Row(
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    crossAxisAlignment: CrossAxisAlignment.end,
-                                    children: <Widget>[
-                                      Text(
-                                        "",
-                                        textAlign: TextAlign.center,
-                                        style: TextStyle(
-                                          fontFamily: FintnessAppTheme.fontName,
-                                          fontWeight: FontWeight.w500,
-                                          fontSize: 24,
-                                          letterSpacing: 0.2,
-                                          color: FintnessAppTheme.white,
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: const EdgeInsets.only(
-                                            left: 4, bottom: 3),
-                                        child: Text(
-                                          '',
-                                          style: TextStyle(
-                                            fontFamily:
-                                                FintnessAppTheme.fontName,
-                                            fontWeight: FontWeight.w500,
-                                            fontSize: 10,
-                                            letterSpacing: 0.2,
-                                            color: FintnessAppTheme.white,
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                 Container(
-                                    decoration: BoxDecoration(
-                                      color: FintnessAppTheme.nearlyWhite,
-                                      shape: BoxShape.circle,
-                                      boxShadow: <BoxShadow>[
-                                        BoxShadow(
-                                            color: FintnessAppTheme.nearlyBlack
-                                                .withOpacity(0.4),
-                                            offset: Offset(8.0, 8.0),
-                                            blurRadius: 8.0),
-                                      ],
-                                    ),
-                                    child: Padding(
-                                      padding: const EdgeInsets.all(6.0),
-                                      child: Icon(
-                                        Icons.add,
-                                        color: HexColor(mealsListData.endColor),
-                                        size: 24,
-                                      ),
-                                    ),
-                                  ),
+//
 
                           ],
                         ),
                       ),
+
                     ),
                   ),
                   Positioned(
@@ -570,6 +533,7 @@ class MealsView extends StatelessWidget {
 
               ),
             ),
+          ),
           ),
         );
       },
